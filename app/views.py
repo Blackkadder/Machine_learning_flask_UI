@@ -17,6 +17,17 @@ from app        import app, lm, db, bc
 from app.models import User
 from app.forms  import LoginForm, RegisterForm
 
+
+from datetime import date
+from random import randint
+
+from bokeh.io import output_file, show
+from bokeh.layouts import widgetbox
+from bokeh.models import ColumnDataSource
+from bokeh.models.widgets import DataTable, DateFormatter, TableColumn
+from bokeh.embed import components
+
+
 # provide login manager with load_user callback
 @lm.user_loader
 def load_user(user_id):
@@ -124,16 +135,36 @@ def index(path):
 
     content = None
 
-    try:
+    script, table_div = data_table()
+    #print(tables)
+    #try:
+
 
         # try to match the pages defined in -> pages/<input file>
-        return render_template( 'pages/'+path )
+    return render_template( 'pages/'+path ,    table_div = table_div, script = script)
     
-    except:
+    #except:
         
-        return render_template( 'pages/error-404.html' )
+    #    return render_template( 'pages/error-404.html' )
 
 # Return sitemap 
 @app.route('/sitemap.xml')
 def sitemap():
     return send_from_directory(os.path.join(app.root_path, 'static'), 'sitemap.xml')
+
+
+
+def data_table():
+        
+    data = dict(
+            dates=[date(2014, 3, i+1) for i in range(10)],
+            downloads=[randint(0, 100) for i in range(10)],
+        )
+    source = ColumnDataSource(data)
+
+    columns = [
+            TableColumn(field="dates", title="Date", formatter=DateFormatter()),
+            TableColumn(field="downloads", title="Downloads"),
+        ]
+    data_table = DataTable(source=source, columns=columns, width=400, height=280)
+    return components(data_table)
