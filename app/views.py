@@ -166,5 +166,5 @@ def data_table():
             TableColumn(field="dates", title="Date", formatter=DateFormatter()),
             TableColumn(field="downloads", title="Downloads"),
         ]
-    data_table = DataTable(source=source, columns=columns, width=400, height=280)
+    data_table = DataTable(source=source, columns=columns, )
     return components(data_table)
