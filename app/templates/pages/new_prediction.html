@@ -1,0 +1,105 @@
+
+{% extends "layouts/default.html" %}
+
+{% block title %} Panels {% endblock title %}
+
+{% block stylesheets %}
+
+{% endblock stylesheets %}
+
+{% block content %}
+
+    <div class="page-inner">
+        <div class="page-header">
+            <h4 class="page-title">Create new</h4>
+            <ul class="breadcrumbs">
+                <li class="nav-home">
+                    <a href="#">
+                        <i class="flaticon-home"></i>
+                    </a>
+                </li>
+                <li class="separator">
+                    <i class="flaticon-right-arrow"></i>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Create new</a>
+                </li>
+                <li class="separator">
+                    <i class="flaticon-right-arrow"></i>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Panels</a>
+                </li>
+            </ul>
+        </div>
+      
+           
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Choose or refine assmptions for scenario</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class=" col-md-2">
+                                <div class="nav flex-column nav-pills nav-secondary nav-pills-no-bd nav-pills-icons" id="v-pills-tab-with-icon" role="tablist" aria-orientation="vertical">
+                                    <a class="nav-link active" id="v-pills-home-tab-icons" data-toggle="pill" href="#v-pills-home-icons" role="tab" aria-controls="v-pills-home-icons" aria-selected="true">
+                                        <i class="flaticon-home"></i>
+                                        System level assumptions
+                                    </a>
+                                    <a class="nav-link" id="v-pills-station-tab-icons" data-toggle="pill" href="#v-pills-station-icons" role="tab" aria-controls="v-pills-station-icons"  aria-selected="false">
+                                        <i class="flaticon-user-4"></i>
+                                        Station level assumptions
+                                    </a>
+                                     <a class="nav-link" id="v-pills-other-tab-icons" data-toggle="pill" href="#v-pills-other-icons" role="tab" aria-selected="false">
+                                        <i class="flaticon-user-4"></i>
+                                        Other assumptions
+                                    </a>
+                                     <a class="nav-link" id="v-pills-output-tab-icons" data-toggle="pill" href="#v-pills-output-icons" role="tab" aria-selected="false">
+                                        <i class="flaticon-user-4"></i>
+                                        Output
+                                    </a>
+                                     <a class="nav-link" id="v-pills-results-tab-icons" data-toggle="pill" href="#v-pills-results-icons" role="tab" aria-selected="false">
+                                        <i class="flaticon-user-4"></i>
+                                        Results
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class=" col-md-8">
+                                <div class="tab-content" id="v-pills-with-icon-tabContent">
+                                    <div class="tab-pane fade show active" id="v-pills-home-icons" role="tabpanel" aria-labelledby="v-pills-home-tab-icons">
+                                        <p>System level </p>
+                                        <a href="#v-pills-station-icons" class="btn btn-primary" id ="tab-btn-first">Next</a>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-station-icons" role="tabpanel" aria-labelledby="v-pills-station-tab-icons">
+                                        <p>Station level
+                                        </p>
+                                        <a href="#v-pills-other-icons" class="btn btn-primary" id ="tab-btn-second">Next</a>
+                                    </div>
+                                     <div class="tab-pane fade" id="v-pills-other-icons" role="tabpanel" >
+                                        <p> Tab 3
+                                        </p>
+                                        <a href="#v-pills-output-icons" class="btn btn-primary" id ="tab-btn-third">Next</a>
+                                    </div> <div class="tab-pane fade" id="v-pills-output-icons" role="tabpanel" >
+                                        <p>Tab 4
+                                        </p>
+                                        <a href="#v-pills-results-icons" class="btn btn-primary" id ="tab-btn-fourth">Next</a>
+                                    </div> <div class="tab-pane fade" id="v-pills-results-icons" role="tabpanel" >
+                                        <p>Tab 5
+                                        </p>
+                                        <a href="#v-pills-home-icons" class="btn btn-primary" id ="tab-btn-fifth">Run</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+        </div>
+    </div>
+
+{% endblock content %}
+
+{% block javascripts %}
+
+{% endblock javascripts %}

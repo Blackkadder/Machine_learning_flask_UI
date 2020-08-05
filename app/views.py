@@ -27,6 +27,9 @@ from bokeh.models import ColumnDataSource
 from bokeh.models.widgets import DataTable, DateFormatter, TableColumn
 from bokeh.embed import components
 
+from bokeh.plotting import figure
+import pandas as pd
+
 
 # provide login manager with load_user callback
 @lm.user_loader
@@ -129,23 +132,44 @@ def login():
 @app.route('/', defaults={'path': 'index.html'})
 @app.route('/<path>')
 def index(path):
+    """
+    This is the index page
+
+    """
+
+    if not current_user.is_authenticated:
+        return redirect(url_for('login'))
+
+    content = None
+    df = get_df()
+    table_script, table_div = data_table(df)
+    plot_script, plot_div = bar_chart(df)
+
+    #print(tables)
+    #try:
+
+
+        # try to match the pages defined in -> pages/<input file>
+    return render_template( 'pages/'+path ,  table_div = table_div, script =table_script,
+                                            div2 = plot_div, script2 = plot_script )
+    
+    #except:
+        
+    #    return render_template( 'pages/error-404.html' )
+
+@app.route('/new_prediction.html')
+def new_prediction():
 
     if not current_user.is_authenticated:
         return redirect(url_for('login'))
 
     content = None
 
-    script, table_div = data_table()
-    #print(tables)
-    #try:
-
+    
 
         # try to match the pages defined in -> pages/<input file>
-    return render_template( 'pages/'+path ,    table_div = table_div, script = script)
+    return render_template( 'pages/'+'new_prediction.html' ,  )
     
-    #except:
-        
-    #    return render_template( 'pages/error-404.html' )
 
 # Return sitemap 
 @app.route('/sitemap.xml')
@@ -154,17 +178,46 @@ def sitemap():
 
 
 
-def data_table():
-        
-    data = dict(
-            dates=[date(2014, 3, i+1) for i in range(10)],
-            downloads=[randint(0, 100) for i in range(10)],
-        )
+def get_df():
+
+    df = pd.read_csv('data/headcount.csv', sep = '\t')
+    return df
+
+
+def data_table(df):
+    
+    data = dict(df)
     source = ColumnDataSource(data)
 
     columns = [
-            TableColumn(field="dates", title="Date", formatter=DateFormatter()),
-            TableColumn(field="downloads", title="Downloads"),
+            TableColumn(field="Month", title="Month"),
+            TableColumn(field="FT or PT", title="FT or PT"),
+            TableColumn(field="Headcount", title="Headcount"),
+        
         ]
-    data_table = DataTable(source=source, columns=columns, )
+    data_table = DataTable(source=source, columns=columns, width=600, height=500)
     return components(data_table)
+
+
+def bar_chart(df):
+    # prepare some data
+    df = df.groupby(['Month']).sum().reset_index()
+
+    month = list(df['Month'].values)
+    headcount = list(df['Headcount'].values)
+
+    # output to static HTML file
+
+    # create a new plot with a title and axis labels
+    source = ColumnDataSource(data=dict(df))
+    p2 = figure(title="simple line example", x_range=month,)#)x_axis_label='month', y_axis_label='headcount')
+    p2.sizing_mode = 'stretch_width'
+
+    # add a line renderer with legend and line thickness
+    p2.vbar(x = 'Month', top = 'Headcount', width =  0.5, legend_label="Temp.", line_width=2, color = 'blue',source = source)
+    #p2.line(x, y, legend_label="Temp.", line_width=2,color = 'blue' )
+    #p2.line(x, y, legend_label="Temp.", line_width=2,color = 'orange')
+
+
+    # show the results
+    return components(p2)
