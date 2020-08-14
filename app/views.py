@@ -20,14 +20,19 @@ from app.forms  import LoginForm, RegisterForm
 
 from datetime import date
 from random import randint
-
-from bokeh.io import output_file, show
+from bokeh.io import output_file, show, output_notebook,curdoc
 from bokeh.layouts import widgetbox
-from bokeh.models import ColumnDataSource
+from bokeh.embed import server_document
+from bokeh.models import ColumnDataSource, Slider
 from bokeh.models.widgets import DataTable, DateFormatter, TableColumn
 from bokeh.embed import components
-
+from datetime import date
+from random import randint
 from bokeh.plotting import figure
+from bokeh.sampledata.sea_surface_temperature import sea_surface_temperature
+from bokeh.layouts import column
+from bokeh.themes import Theme
+import yaml
 import pandas as pd
 
 
@@ -144,6 +149,13 @@ def index(path):
     df = get_df()
     table_script, table_div = data_table(df)
     plot_script, plot_div = bar_chart(df)
+    doc_script = server_document('http://localhost:5006/bkapp')
+
+
+    #doc_script = server_document("http://localhost:5006/app")
+    
+    #doc_script, doc_div = components(layout)
+    
 
     #print(tables)
     #try:
@@ -151,7 +163,8 @@ def index(path):
 
         # try to match the pages defined in -> pages/<input file>
     return render_template( 'pages/'+path ,  table_div = table_div, script =table_script,
-                                            div2 = plot_div, script2 = plot_script )
+                                            div2 = plot_div, script2 = plot_script,
+                                            doc_script = doc_script )
     
     #except:
         
@@ -177,6 +190,11 @@ def sitemap():
     return send_from_directory(os.path.join(app.root_path, 'static'), 'sitemap.xml')
 
 
+#@app.route('/', methods=['GET'])
+#def bkapp_page():
+#    script = server_document('http://localhost:5006/bkapp')
+#    return render_template("pages/index.html", script=script, template="Flask", relative_urls=False)
+
 
 def get_df():
 
@@ -195,7 +213,7 @@ def data_table(df):
             TableColumn(field="Headcount", title="Headcount"),
         
         ]
-    data_table = DataTable(source=source, columns=columns, width=600, height=500)
+    data_table = DataTable(source=source, columns=columns, width=800, height=600,   editable=True,)
     return components(data_table)
 
 
@@ -221,3 +239,6 @@ def bar_chart(df):
 
     # show the results
     return components(p2)
+
+
+

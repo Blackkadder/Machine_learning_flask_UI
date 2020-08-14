@@ -1,0 +1,881 @@
+date,HOME_LOCATION,JOB_DESC,FULL_OR_PART_TIME,HEADCOUNT
+2020-06-01,ABQ,Cargo Customer Service Supervisor,F,1
+2020-06-01,ABQ,Customer Serv Agent,F,33
+2020-06-01,ABQ,Customer Serv Agent,P,12
+2020-06-01,ABQ,Customer Service Supervisor II,F,9
+2020-06-01,ABQ,ELDP Ramp,F,3
+2020-06-01,ABQ,Freight Agent,F,6
+2020-06-01,ABQ,GSE Technician,F,2
+2020-06-01,ABQ,Lead GSE Technician,F,1
+2020-06-01,ABQ,OPS Agent,F,21
+2020-06-01,ABQ,OPS Agent,P,3
+2020-06-01,ABQ,Ramp Agent,F,83
+2020-06-01,ABQ,Ramp Agent,P,9
+2020-06-01,ABQ,Ramp Agent Supvr,F,9
+2020-06-01,ABQ,Sky Cap,F,7
+2020-06-01,ALB,Customer Serv Agent,F,12
+2020-06-01,ALB,Customer Serv Agent,P,8
+2020-06-01,ALB,Customer Service Supervisor II,F,3
+2020-06-01,ALB,OPS Agent,F,8
+2020-06-01,ALB,Ramp Agent,F,30
+2020-06-01,ALB,Ramp Agent,P,6
+2020-06-01,ALB,Ramp Agent Supvr,F,5
+2020-06-01,AMA,Customer Serv Agent,F,9
+2020-06-01,AMA,Customer Serv Agent,P,4
+2020-06-01,AMA,Customer Service Supervisor II,F,4
+2020-06-01,AMA,Freight Agent,F,3
+2020-06-01,AMA,OPS Agent,F,4
+2020-06-01,AMA,OPS Agent,P,2
+2020-06-01,AMA,Ramp Agent,F,14
+2020-06-01,AMA,Ramp Agent,P,3
+2020-06-01,AMA,Ramp Agent Supvr,F,3
+2020-06-01,ATL,Cargo Customer Service Supervisor,F,4
+2020-06-01,ATL,Customer Serv Agent,F,124
+2020-06-01,ATL,Customer Serv Agent,P,7
+2020-06-01,ATL,Customer Service Supervisor II,F,29
+2020-06-01,ATL,ELDP Customer Service II,F,3
+2020-06-01,ATL,ELDP Provo,F,2
+2020-06-01,ATL,ELDP Ramp,F,2
+2020-06-01,ATL,Freight Agent,F,14
+2020-06-01,ATL,Freight Agent,P,3
+2020-06-01,ATL,GSE Technician,F,19
+2020-06-01,ATL,Lead GSE Technician,F,4
+2020-06-01,ATL,OPS Agent,F,59
+2020-06-01,ATL,OPS Agent,P,14
+2020-06-01,ATL,Prov Agent Supvr,F,10
+2020-06-01,ATL,Provisioning Agent,F,63
+2020-06-01,ATL,Ramp Agent,F,345
+2020-06-01,ATL,Ramp Agent,P,44
+2020-06-01,ATL,Ramp Agent Supvr,F,40
+2020-06-01,AUS,Cargo Customer Service Supervisor,F,2
+2020-06-01,AUS,Customer Serv Agent,F,58
+2020-06-01,AUS,Customer Serv Agent,P,13
+2020-06-01,AUS,Customer Service Supervisor II,F,16
+2020-06-01,AUS,Freight Agent,F,8
+2020-06-01,AUS,GSE Technician,F,1
+2020-06-01,AUS,Lead GSE Technician,F,1
+2020-06-01,AUS,OPS Agent,F,37
+2020-06-01,AUS,OPS Agent,P,4
+2020-06-01,AUS,Ramp Agent,F,130
+2020-06-01,AUS,Ramp Agent,P,27
+2020-06-01,AUS,Ramp Agent Supvr,F,16
+2020-06-01,AUS,Sky Cap,F,6
+2020-06-01,BDL,Cargo Customer Service Supervisor,F,1
+2020-06-01,BDL,Customer Serv Agent,F,19
+2020-06-01,BDL,Customer Serv Agent,P,2
+2020-06-01,BDL,Customer Service Supervisor II,F,5
+2020-06-01,BDL,Freight Agent,F,6
+2020-06-01,BDL,Freight Agent,P,1
+2020-06-01,BDL,OPS Agent,F,10
+2020-06-01,BDL,Ramp Agent,F,53
+2020-06-01,BDL,Ramp Agent,P,7
+2020-06-01,BDL,Ramp Agent Supvr,F,5
+2020-06-01,BHM,Cargo Customer Service Supervisor,F,1
+2020-06-01,BHM,Customer Serv Agent,F,14
+2020-06-01,BHM,Customer Serv Agent,P,4
+2020-06-01,BHM,Customer Service Supervisor II,F,4
+2020-06-01,BHM,Freight Agent,F,4
+2020-06-01,BHM,OPS Agent,F,9
+2020-06-01,BHM,Ramp Agent,F,27
+2020-06-01,BHM,Ramp Agent,P,2
+2020-06-01,BHM,Ramp Agent Supvr,F,4
+2020-06-01,BNA,Cargo Customer Service Supervisor,F,2
+2020-06-01,BNA,Customer Serv Agent,F,106
+2020-06-01,BNA,Customer Serv Agent,P,6
+2020-06-01,BNA,Customer Service Supervisor II,F,24
+2020-06-01,BNA,ELDP Customer Service II,F,2
+2020-06-01,BNA,ELDP Provo,F,2
+2020-06-01,BNA,ELDP Ramp,F,2
+2020-06-01,BNA,Freight Agent,F,11
+2020-06-01,BNA,Freight Agent,P,2
+2020-06-01,BNA,GSE Technician,F,4
+2020-06-01,BNA,Lead GSE Technician,F,2
+2020-06-01,BNA,OPS Agent,F,61
+2020-06-01,BNA,OPS Agent,P,1
+2020-06-01,BNA,Prov Agent Supvr,F,7
+2020-06-01,BNA,Provisioning Agent,F,53
+2020-06-01,BNA,Provisioning Agent,P,1
+2020-06-01,BNA,Ramp Agent,F,278
+2020-06-01,BNA,Ramp Agent,P,7
+2020-06-01,BNA,Ramp Agent Supvr,F,25
+2020-06-01,BOI,Customer Serv Agent,F,16
+2020-06-01,BOI,Customer Serv Agent,P,3
+2020-06-01,BOI,Customer Service Supervisor II,F,3
+2020-06-01,BOI,Freight Agent,F,3
+2020-06-01,BOI,OPS Agent,F,7
+2020-06-01,BOI,OPS Agent,P,2
+2020-06-01,BOI,Ramp Agent,F,28
+2020-06-01,BOI,Ramp Agent,P,5
+2020-06-01,BOI,Ramp Agent Supvr,F,4
+2020-06-01,BOS,Cargo Customer Service Supervisor,F,3
+2020-06-01,BOS,Customer Serv Agent,F,39
+2020-06-01,BOS,Customer Service Supervisor II,F,7
+2020-06-01,BOS,Freight Agent,F,10
+2020-06-01,BOS,OPS Agent,F,18
+2020-06-01,BOS,Ramp Agent,F,92
+2020-06-01,BOS,Ramp Agent,P,1
+2020-06-01,BOS,Ramp Agent Supvr,F,6
+2020-06-01,BUF,Customer Serv Agent,F,24
+2020-06-01,BUF,Customer Serv Agent,P,8
+2020-06-01,BUF,Customer Service Supervisor II,F,6
+2020-06-01,BUF,Freight Agent,F,5
+2020-06-01,BUF,OPS Agent,F,11
+2020-06-01,BUF,OPS Agent,P,2
+2020-06-01,BUF,Ramp Agent,F,54
+2020-06-01,BUF,Ramp Agent,P,5
+2020-06-01,BUF,Ramp Agent Supvr,F,7
+2020-06-01,BUR,Cargo Customer Service Supervisor,F,1
+2020-06-01,BUR,Customer Serv Agent,F,70
+2020-06-01,BUR,Customer Serv Agent,P,3
+2020-06-01,BUR,Customer Service Supervisor II,F,13
+2020-06-01,BUR,Freight Agent,F,6
+2020-06-01,BUR,GSE Technician,F,2
+2020-06-01,BUR,Lead GSE Technician,F,1
+2020-06-01,BUR,OPS Agent,F,28
+2020-06-01,BUR,Ramp Agent,F,133
+2020-06-01,BUR,Ramp Agent,P,9
+2020-06-01,BUR,Ramp Agent Supvr,F,13
+2020-06-01,BWI,Cargo Customer Service Supervisor,F,4
+2020-06-01,BWI,Customer Serv Agent,F,193
+2020-06-01,BWI,Customer Serv Agent,P,29
+2020-06-01,BWI,Customer Service Supervisor II,F,43
+2020-06-01,BWI,ELDP Customer Service II,F,2
+2020-06-01,BWI,ELDP Provo,F,2
+2020-06-01,BWI,Freight Agent,F,18
+2020-06-01,BWI,GSE Technician,F,19
+2020-06-01,BWI,Lead GSE Technician,F,2
+2020-06-01,BWI,OPS Agent,F,120
+2020-06-01,BWI,OPS Agent,P,1
+2020-06-01,BWI,Prov Agent Supvr,F,12
+2020-06-01,BWI,Provisioning Agent,F,81
+2020-06-01,BWI,Provisioning Agent,P,1
+2020-06-01,BWI,Ramp Agent,F,690
+2020-06-01,BWI,Ramp Agent,P,71
+2020-06-01,BWI,Ramp Agent Supvr,F,62
+2020-06-01,CHS,Customer Serv Agent,F,11
+2020-06-01,CHS,Customer Serv Agent,P,3
+2020-06-01,CHS,Customer Service Supervisor II,F,4
+2020-06-01,CHS,OPS Agent,F,5
+2020-06-01,CHS,Ramp Agent,F,18
+2020-06-01,CHS,Ramp Agent Supvr,F,3
+2020-06-01,CLE,Customer Serv Agent,F,23
+2020-06-01,CLE,Customer Serv Agent,P,2
+2020-06-01,CLE,Customer Service Supervisor II,F,6
+2020-06-01,CLE,Freight Agent,F,5
+2020-06-01,CLE,OPS Agent,F,14
+2020-06-01,CLE,OPS Agent,P,2
+2020-06-01,CLE,Ramp Agent,F,46
+2020-06-01,CLE,Ramp Agent,P,3
+2020-06-01,CLE,Ramp Agent Supvr,F,6
+2020-06-01,CLT,Customer Serv Agent,F,10
+2020-06-01,CLT,Customer Serv Agent,P,3
+2020-06-01,CLT,Customer Service Supervisor II,F,3
+2020-06-01,CMH,Cargo Customer Service Supervisor,F,1
+2020-06-01,CMH,Customer Serv Agent,F,36
+2020-06-01,CMH,Customer Serv Agent,P,8
+2020-06-01,CMH,Customer Service Supervisor II,F,8
+2020-06-01,CMH,Freight Agent,F,9
+2020-06-01,CMH,OPS Agent,F,18
+2020-06-01,CMH,OPS Agent,P,3
+2020-06-01,CMH,Ramp Agent,F,76
+2020-06-01,CMH,Ramp Agent,P,9
+2020-06-01,CMH,Ramp Agent Supvr,F,9
+2020-06-01,CRP,Customer Serv Agent,F,8
+2020-06-01,CRP,Customer Service Supervisor II,F,3
+2020-06-01,CRP,OPS Agent,F,3
+2020-06-01,CRP,Ramp Agent,F,8
+2020-06-01,CRP,Ramp Agent Supvr,F,3
+2020-06-01,CVG,Customer Serv Agent,F,9
+2020-06-01,CVG,Customer Serv Agent,P,2
+2020-06-01,CVG,Customer Service Supervisor II,F,3
+2020-06-01,CVG,OPS Agent,F,6
+2020-06-01,CVG,OPS Agent,P,1
+2020-06-01,CVG,Ramp Agent,F,18
+2020-06-01,CVG,Ramp Agent,P,4
+2020-06-01,CVG,Ramp Agent Supvr,F,4
+2020-06-01,DAL,Cargo Customer Service Supervisor,F,5
+2020-06-01,DAL,Customer Serv Agent,F,167
+2020-06-01,DAL,Customer Serv Agent,P,32
+2020-06-01,DAL,Customer Service Supervisor II,F,37
+2020-06-01,DAL,ELDP Customer Service II,F,2
+2020-06-01,DAL,ELDP Provo,F,1
+2020-06-01,DAL,Freight Agent,F,27
+2020-06-01,DAL,GSE Technician,F,15
+2020-06-01,DAL,GSE Technician - Shop,F,2
+2020-06-01,DAL,Lead GSE Technician,F,2
+2020-06-01,DAL,Lead GSE Technician - Shop,F,1
+2020-06-01,DAL,OPS Agent,F,86
+2020-06-01,DAL,OPS Agent,P,22
+2020-06-01,DAL,Prov Agent Supvr,F,14
+2020-06-01,DAL,Provisioning Agent,F,83
+2020-06-01,DAL,Provisioning Agent,P,5
+2020-06-01,DAL,Ramp Agent,F,412
+2020-06-01,DAL,Ramp Agent,P,89
+2020-06-01,DAL,Ramp Agent Supvr,F,46
+2020-06-01,DAL,Ramp Agent Supvr,P,5
+2020-06-01,DAL,Sky Cap,F,8
+2020-06-01,DAL,Sky Cap,P,9
+2020-06-01,DCA,Customer Serv Agent,F,46
+2020-06-01,DCA,Customer Serv Agent,P,5
+2020-06-01,DCA,Customer Service Supervisor II,F,10
+2020-06-01,DCA,OPS Agent,F,24
+2020-06-01,DCA,OPS Agent,P,1
+2020-06-01,DCA,Ramp Agent,F,92
+2020-06-01,DCA,Ramp Agent,P,6
+2020-06-01,DCA,Ramp Agent Supvr,F,12
+2020-06-01,DEN,Cargo Customer Service Supervisor,F,5
+2020-06-01,DEN,Customer Serv Agent,F,194
+2020-06-01,DEN,Customer Serv Agent,P,57
+2020-06-01,DEN,Customer Service Supervisor II,F,43
+2020-06-01,DEN,ELDP Customer Service II,F,2
+2020-06-01,DEN,ELDP Provo,F,2
+2020-06-01,DEN,ELDP Ramp,F,2
+2020-06-01,DEN,Freight Agent,F,17
+2020-06-01,DEN,GSE Technician,F,13
+2020-06-01,DEN,Lead GSE Technician,F,3
+2020-06-01,DEN,OPS Agent,F,117
+2020-06-01,DEN,Prov Agent Supvr,F,11
+2020-06-01,DEN,Provisioning Agent,F,105
+2020-06-01,DEN,Ramp Agent,F,717
+2020-06-01,DEN,Ramp Agent,P,4
+2020-06-01,DEN,Ramp Agent Supvr,F,64
+2020-06-01,DMX,Apprentice AC Mx Technician,F,23
+2020-06-01,DSM,Customer Contract Service Lead,F,1
+2020-06-01,DTW,Cargo Customer Service Supervisor,F,1
+2020-06-01,DTW,Customer Serv Agent,F,25
+2020-06-01,DTW,Customer Serv Agent,P,5
+2020-06-01,DTW,Customer Service Supervisor II,F,6
+2020-06-01,DTW,Freight Agent,F,8
+2020-06-01,DTW,OPS Agent,F,11
+2020-06-01,DTW,OPS Agent,P,2
+2020-06-01,DTW,Ramp Agent,F,54
+2020-06-01,DTW,Ramp Agent,P,12
+2020-06-01,DTW,Ramp Agent Supvr,F,6
+2020-06-01,ECP,Customer Serv Agent,F,12
+2020-06-01,ECP,Customer Serv Agent,P,3
+2020-06-01,ECP,Customer Service Supervisor II,F,3
+2020-06-01,ECP,OPS Agent,F,6
+2020-06-01,ECP,Ramp Agent,F,15
+2020-06-01,ECP,Ramp Agent,P,2
+2020-06-01,ECP,Ramp Agent Supvr,F,2
+2020-06-01,ELP,Cargo Customer Service Supervisor,F,2
+2020-06-01,ELP,Customer Serv Agent,F,23
+2020-06-01,ELP,Customer Serv Agent,P,7
+2020-06-01,ELP,Customer Service Supervisor II,F,6
+2020-06-01,ELP,Freight Agent,F,7
+2020-06-01,ELP,GSE Technician,F,2
+2020-06-01,ELP,OPS Agent,F,12
+2020-06-01,ELP,OPS Agent,P,1
+2020-06-01,ELP,Ramp Agent,F,54
+2020-06-01,ELP,Ramp Agent,P,9
+2020-06-01,ELP,Ramp Agent Supvr,F,6
+2020-06-01,FLL,Cargo Customer Service Supervisor,F,5
+2020-06-01,FLL,Customer Serv Agent,F,148
+2020-06-01,FLL,Customer Serv Agent,P,16
+2020-06-01,FLL,Customer Service Supervisor II,F,27
+2020-06-01,FLL,ELDP Customer Service II,F,1
+2020-06-01,FLL,ELDP Provo,F,1
+2020-06-01,FLL,ELDP Ramp,F,1
+2020-06-01,FLL,Freight Agent,F,19
+2020-06-01,FLL,Freight Agent,P,4
+2020-06-01,FLL,GSE Technician,F,4
+2020-06-01,FLL,Lead GSE Technician,F,1
+2020-06-01,FLL,OPS Agent,F,51
+2020-06-01,FLL,OPS Agent,P,2
+2020-06-01,FLL,Prov Agent Supvr,F,6
+2020-06-01,FLL,Provisioning Agent,F,45
+2020-06-01,FLL,Ramp Agent,F,263
+2020-06-01,FLL,Ramp Agent,P,10
+2020-06-01,FLL,Ramp Agent Supvr,F,26
+2020-06-01,GEG,Customer Serv Agent,F,13
+2020-06-01,GEG,Customer Serv Agent,P,5
+2020-06-01,GEG,Customer Service Supervisor II,F,4
+2020-06-01,GEG,OPS Agent,F,7
+2020-06-01,GEG,OPS Agent,P,1
+2020-06-01,GEG,Ramp Agent,F,29
+2020-06-01,GEG,Ramp Agent,P,3
+2020-06-01,GEG,Ramp Agent Supvr,F,4
+2020-06-01,GRR,Customer Serv Agent,F,8
+2020-06-01,GRR,Customer Serv Agent,P,4
+2020-06-01,GRR,Customer Service Supervisor II,F,3
+2020-06-01,GSP,Customer Serv Agent,F,11
+2020-06-01,GSP,Customer Service Supervisor II,F,3
+2020-06-01,GSP,OPS Agent,F,4
+2020-06-01,GSP,OPS Agent,P,1
+2020-06-01,GSP,Ramp Agent,F,13
+2020-06-01,GSP,Ramp Agent Supvr,F,3
+2020-06-01,HDQ,Cargo Customer Care Rep,F,4
+2020-06-01,HDQ,Senior Representative,F,4
+2020-06-01,HNL,Customer Serv Agent,F,23
+2020-06-01,HNL,Customer Serv Agent,P,11
+2020-06-01,HNL,Customer Service Supervisor II,F,7
+2020-06-01,HNL,OPS Agent,F,25
+2020-06-01,HNL,Prov Agent Supvr,F,3
+2020-06-01,HNL,Provisioning Agent,F,14
+2020-06-01,HNL,Ramp Agent,F,72
+2020-06-01,HNL,Ramp Agent,P,1
+2020-06-01,HNL,Ramp Agent Supvr,F,7
+2020-06-01,HOU,Cargo Customer Service Supervisor,F,5
+2020-06-01,HOU,Customer Serv Agent,F,132
+2020-06-01,HOU,Customer Serv Agent,P,49
+2020-06-01,HOU,Customer Service Supervisor II,F,34
+2020-06-01,HOU,Customer Service Supervisor II,P,1
+2020-06-01,HOU,ELDP Customer Service II,F,3
+2020-06-01,HOU,ELDP Provo,F,2
+2020-06-01,HOU,ELDP Ramp,F,4
+2020-06-01,HOU,Freight Agent,F,19
+2020-06-01,HOU,GSE Technician,F,9
+2020-06-01,HOU,Lead GSE Technician,F,3
+2020-06-01,HOU,OPS Agent,F,86
+2020-06-01,HOU,OPS Agent,P,10
+2020-06-01,HOU,Prov Agent Supvr,F,10
+2020-06-01,HOU,Provisioning Agent,F,70
+2020-06-01,HOU,Provisioning Agent,P,8
+2020-06-01,HOU,Ramp Agent,F,405
+2020-06-01,HOU,Ramp Agent,P,67
+2020-06-01,HOU,Ramp Agent Supvr,F,44
+2020-06-01,HOU,Sky Cap,F,8
+2020-06-01,HRL,Customer Serv Agent,F,11
+2020-06-01,HRL,Customer Service Supervisor II,F,5
+2020-06-01,HRL,Freight Agent,F,4
+2020-06-01,HRL,OPS Agent,F,4
+2020-06-01,HRL,Ramp Agent,F,16
+2020-06-01,HRL,Ramp Agent Supvr,F,3
+2020-06-01,IAD,Customer Serv Agent,F,12
+2020-06-01,IAD,Customer Serv Agent,P,1
+2020-06-01,IAD,Customer Service Supervisor II,F,4
+2020-06-01,IAD,OPS Agent,F,5
+2020-06-01,IAD,Ramp Agent,F,17
+2020-06-01,IAD,Ramp Agent,P,3
+2020-06-01,IAD,Ramp Agent Supvr,F,4
+2020-06-01,ICT,Customer Serv Agent,F,6
+2020-06-01,ICT,Customer Serv Agent,P,6
+2020-06-01,ICT,Customer Service Supervisor II,F,3
+2020-06-01,IND,Cargo Customer Service Supervisor,F,1
+2020-06-01,IND,Customer Serv Agent,F,39
+2020-06-01,IND,Customer Serv Agent,P,7
+2020-06-01,IND,Customer Service Supervisor II,F,9
+2020-06-01,IND,Freight Agent,F,9
+2020-06-01,IND,GSE Technician,F,2
+2020-06-01,IND,Lead GSE Technician,F,1
+2020-06-01,IND,OPS Agent,F,18
+2020-06-01,IND,OPS Agent,P,2
+2020-06-01,IND,Ramp Agent,F,78
+2020-06-01,IND,Ramp Agent,P,10
+2020-06-01,IND,Ramp Agent Supvr,F,10
+2020-06-01,ISP,Customer Serv Agent,F,15
+2020-06-01,ISP,Customer Serv Agent,P,4
+2020-06-01,ISP,Customer Service Supervisor II,F,5
+2020-06-01,ISP,Freight Agent,F,3
+2020-06-01,ISP,Freight Agent,P,1
+2020-06-01,ISP,OPS Agent,F,9
+2020-06-01,ISP,OPS Agent,P,1
+2020-06-01,ISP,Ramp Agent,F,37
+2020-06-01,ISP,Ramp Agent,P,2
+2020-06-01,ISP,Ramp Agent Supvr,F,4
+2020-06-01,ITO,Customer Serv Agent,F,13
+2020-06-01,ITO,Customer Service Supervisor II,F,3
+2020-06-01,ITO,OPS Agent,F,6
+2020-06-01,ITO,Ramp Agent,F,21
+2020-06-01,ITO,Ramp Agent Supvr,F,3
+2020-06-01,JAX,Customer Serv Agent,F,22
+2020-06-01,JAX,Customer Serv Agent,P,2
+2020-06-01,JAX,Customer Service Supervisor II,F,4
+2020-06-01,JAX,OPS Agent,F,9
+2020-06-01,JAX,OPS Agent,P,1
+2020-06-01,JAX,Ramp Agent,F,37
+2020-06-01,JAX,Ramp Agent,P,2
+2020-06-01,JAX,Ramp Agent Supvr,F,4
+2020-06-01,KOA,Customer Serv Agent,F,13
+2020-06-01,KOA,Customer Service Supervisor II,F,3
+2020-06-01,KOA,OPS Agent,F,5
+2020-06-01,KOA,Ramp Agent,F,21
+2020-06-01,KOA,Ramp Agent Supvr,F,3
+2020-06-01,LAS,Cargo Customer Service Supervisor,F,5
+2020-06-01,LAS,Customer Serv Agent,F,165
+2020-06-01,LAS,Customer Serv Agent,P,21
+2020-06-01,LAS,Customer Service Supervisor II,F,38
+2020-06-01,LAS,ELDP Customer Service II,F,3
+2020-06-01,LAS,ELDP Provo,F,1
+2020-06-01,LAS,ELDP Ramp,F,2
+2020-06-01,LAS,Freight Agent,F,14
+2020-06-01,LAS,GSE Technician,F,11
+2020-06-01,LAS,Lead GSE Technician,F,3
+2020-06-01,LAS,OPS Agent,F,90
+2020-06-01,LAS,OPS Agent,P,7
+2020-06-01,LAS,Prov Agent Supvr,F,11
+2020-06-01,LAS,Provisioning Agent,F,81
+2020-06-01,LAS,Provisioning Agent,P,3
+2020-06-01,LAS,Ramp Agent,F,459
+2020-06-01,LAS,Ramp Agent,P,31
+2020-06-01,LAS,Ramp Agent Supvr,F,40
+2020-06-01,LAX,Cargo Customer Service Supervisor,F,11
+2020-06-01,LAX,Customer Serv Agent,F,136
+2020-06-01,LAX,Customer Serv Agent,P,43
+2020-06-01,LAX,Customer Service Supervisor II,F,30
+2020-06-01,LAX,ELDP Customer Service II,F,2
+2020-06-01,LAX,ELDP Ramp,F,3
+2020-06-01,LAX,Freight Agent,F,48
+2020-06-01,LAX,GSE Technician,F,7
+2020-06-01,LAX,Lead GSE Technician,F,2
+2020-06-01,LAX,OPS Agent,F,59
+2020-06-01,LAX,OPS Agent,P,3
+2020-06-01,LAX,Prov Agent Supvr,F,9
+2020-06-01,LAX,Provisioning Agent,F,60
+2020-06-01,LAX,Ramp Agent,F,249
+2020-06-01,LAX,Ramp Agent,P,39
+2020-06-01,LAX,Ramp Agent Supvr,F,34
+2020-06-01,LAX,Sky Cap,F,14
+2020-06-01,LBB,Customer Serv Agent,F,12
+2020-06-01,LBB,Customer Serv Agent,P,1
+2020-06-01,LBB,Customer Service Supervisor II,F,3
+2020-06-01,LBB,Freight Agent,F,3
+2020-06-01,LBB,OPS Agent,F,5
+2020-06-01,LBB,OPS Agent,P,2
+2020-06-01,LBB,Ramp Agent,F,15
+2020-06-01,LBB,Ramp Agent,P,3
+2020-06-01,LBB,Ramp Agent Supvr,F,4
+2020-06-01,LGA,Customer Serv Agent,F,56
+2020-06-01,LGA,Customer Service Supervisor II,F,14
+2020-06-01,LGA,OPS Agent,F,24
+2020-06-01,LGA,Ramp Agent,F,99
+2020-06-01,LGA,Ramp Agent Supvr,F,10
+2020-06-01,LGB,Customer Serv Agent,F,16
+2020-06-01,LGB,Customer Service Supervisor II,F,4
+2020-06-01,LGB,OPS Agent,F,8
+2020-06-01,LGB,Ramp Agent,F,30
+2020-06-01,LGB,Ramp Agent Supvr,F,3
+2020-06-01,LIH,Customer Serv Agent,F,12
+2020-06-01,LIH,Customer Service Supervisor II,F,3
+2020-06-01,LIH,OPS Agent,F,5
+2020-06-01,LIH,Ramp Agent,F,21
+2020-06-01,LIH,Ramp Agent Supvr,F,3
+2020-06-01,LIT,Customer Serv Agent,F,14
+2020-06-01,LIT,Customer Service Supervisor II,F,3
+2020-06-01,LIT,Freight Agent,F,4
+2020-06-01,LIT,OPS Agent,F,6
+2020-06-01,LIT,OPS Agent,P,1
+2020-06-01,LIT,Ramp Agent,F,19
+2020-06-01,LIT,Ramp Agent Supvr,F,3
+2020-06-01,MAF,Customer Serv Agent,F,12
+2020-06-01,MAF,Customer Service Supervisor II,F,3
+2020-06-01,MAF,Freight Agent,F,2
+2020-06-01,MAF,Freight Agent,P,1
+2020-06-01,MAF,OPS Agent,F,6
+2020-06-01,MAF,Ramp Agent,F,18
+2020-06-01,MAF,Ramp Agent Supvr,F,4
+2020-06-01,MCI,Cargo Customer Service Supervisor,F,2
+2020-06-01,MCI,Customer Serv Agent,F,64
+2020-06-01,MCI,Customer Serv Agent,P,5
+2020-06-01,MCI,Customer Service Supervisor II,F,14
+2020-06-01,MCI,ELDP Customer Service II,F,1
+2020-06-01,MCI,ELDP Provo,F,1
+2020-06-01,MCI,ELDP Ramp,F,1
+2020-06-01,MCI,Freight Agent,F,10
+2020-06-01,MCI,GSE Technician,F,3
+2020-06-01,MCI,Lead GSE Technician,F,1
+2020-06-01,MCI,OPS Agent,F,30
+2020-06-01,MCI,OPS Agent,P,9
+2020-06-01,MCI,Prov Agent Supvr,F,6
+2020-06-01,MCI,Provisioning Agent,F,30
+2020-06-01,MCI,Provisioning Agent,P,4
+2020-06-01,MCI,Ramp Agent,F,145
+2020-06-01,MCI,Ramp Agent,P,17
+2020-06-01,MCI,Ramp Agent Supvr,F,16
+2020-06-01,MCO,Cargo Customer Service Supervisor,F,4
+2020-06-01,MCO,Customer Serv Agent,F,153
+2020-06-01,MCO,Customer Serv Agent,P,31
+2020-06-01,MCO,Customer Service Supervisor II,F,34
+2020-06-01,MCO,ELDP Customer Service II,F,4
+2020-06-01,MCO,ELDP Provo,F,2
+2020-06-01,MCO,ELDP Ramp,F,2
+2020-06-01,MCO,Freight Agent,F,12
+2020-06-01,MCO,Freight Agent,P,2
+2020-06-01,MCO,GSE Technician,F,12
+2020-06-01,MCO,Lead GSE Technician,F,2
+2020-06-01,MCO,OPS Agent,F,75
+2020-06-01,MCO,OPS Agent,P,4
+2020-06-01,MCO,Prov Agent Supvr,F,8
+2020-06-01,MCO,Provisioning Agent,F,64
+2020-06-01,MCO,Ramp Agent,F,388
+2020-06-01,MCO,Ramp Agent,P,30
+2020-06-01,MCO,Ramp Agent Supvr,F,37
+2020-06-01,MDW,Cargo Customer Service Supervisor,F,6
+2020-06-01,MDW,Customer Serv Agent,F,176
+2020-06-01,MDW,Customer Serv Agent,P,47
+2020-06-01,MDW,Customer Service Supervisor II,F,40
+2020-06-01,MDW,ELDP Customer Service II,F,2
+2020-06-01,MDW,ELDP Ramp,F,2
+2020-06-01,MDW,Freight Agent,F,20
+2020-06-01,MDW,Freight Agent,P,2
+2020-06-01,MDW,GSE Technician,F,24
+2020-06-01,MDW,Lead GSE Technician,F,4
+2020-06-01,MDW,OPS Agent,F,137
+2020-06-01,MDW,OPS Agent,P,8
+2020-06-01,MDW,Prov Agent Supvr,F,16
+2020-06-01,MDW,Provisioning Agent,F,100
+2020-06-01,MDW,Provisioning Agent,P,11
+2020-06-01,MDW,Ramp Agent,F,623
+2020-06-01,MDW,Ramp Agent,P,154
+2020-06-01,MDW,Ramp Agent Supvr,F,55
+2020-06-01,MDW,Sky Cap,F,22
+2020-06-01,MEM,Customer Serv Agent,F,12
+2020-06-01,MEM,Customer Serv Agent,P,2
+2020-06-01,MEM,Customer Service Supervisor II,F,3
+2020-06-01,MEM,OPS Agent,F,7
+2020-06-01,MEM,OPS Agent,P,1
+2020-06-01,MEM,Ramp Agent,F,23
+2020-06-01,MEM,Ramp Agent,P,1
+2020-06-01,MEM,Ramp Agent Supvr,F,4
+2020-06-01,MHT,Customer Serv Agent,F,20
+2020-06-01,MHT,Customer Service Supervisor II,F,3
+2020-06-01,MHT,OPS Agent,F,12
+2020-06-01,MHT,Ramp Agent,F,38
+2020-06-01,MHT,Ramp Agent Supvr,F,4
+2020-06-01,MKE,Customer Serv Agent,F,36
+2020-06-01,MKE,Customer Serv Agent,P,11
+2020-06-01,MKE,Customer Service Supervisor II,F,12
+2020-06-01,MKE,OPS Agent,F,21
+2020-06-01,MKE,OPS Agent,P,4
+2020-06-01,MKE,Ramp Agent,F,93
+2020-06-01,MKE,Ramp Agent,P,8
+2020-06-01,MKE,Ramp Agent Supvr,F,12
+2020-06-01,MSP,Cargo Customer Service Supervisor,F,1
+2020-06-01,MSP,Customer Serv Agent,F,26
+2020-06-01,MSP,Customer Serv Agent,P,10
+2020-06-01,MSP,Customer Service Supervisor II,F,7
+2020-06-01,MSP,Freight Agent,F,5
+2020-06-01,MSP,OPS Agent,F,15
+2020-06-01,MSP,OPS Agent,P,2
+2020-06-01,MSP,Ramp Agent,F,59
+2020-06-01,MSP,Ramp Agent,P,14
+2020-06-01,MSP,Ramp Agent Supvr,F,7
+2020-06-01,MSY,Cargo Customer Service Supervisor,F,1
+2020-06-01,MSY,Customer Serv Agent,F,53
+2020-06-01,MSY,Customer Serv Agent,P,7
+2020-06-01,MSY,Customer Service Supervisor II,F,13
+2020-06-01,MSY,Freight Agent,F,10
+2020-06-01,MSY,GSE Technician,F,2
+2020-06-01,MSY,Lead GSE Technician,F,1
+2020-06-01,MSY,OPS Agent,F,25
+2020-06-01,MSY,OPS Agent,P,5
+2020-06-01,MSY,Ramp Agent,F,105
+2020-06-01,MSY,Ramp Agent,P,25
+2020-06-01,MSY,Ramp Agent Supvr,F,15
+2020-06-01,OAK,Cargo Customer Service Supervisor,F,4
+2020-06-01,OAK,Customer Serv Agent,F,110
+2020-06-01,OAK,Customer Serv Agent,P,35
+2020-06-01,OAK,Customer Service Supervisor II,F,29
+2020-06-01,OAK,Freight Agent,F,15
+2020-06-01,OAK,GSE Technician,F,6
+2020-06-01,OAK,Lead GSE Technician,F,2
+2020-06-01,OAK,OPS Agent,F,79
+2020-06-01,OAK,OPS Agent,P,1
+2020-06-01,OAK,Prov Agent Supvr,F,8
+2020-06-01,OAK,Provisioning Agent,F,53
+2020-06-01,OAK,Provisioning Agent,P,1
+2020-06-01,OAK,Ramp Agent,F,298
+2020-06-01,OAK,Ramp Agent,P,28
+2020-06-01,OAK,Ramp Agent Supvr,F,23
+2020-06-01,OGG,Customer Serv Agent,F,16
+2020-06-01,OGG,Customer Serv Agent,P,2
+2020-06-01,OGG,Customer Service Supervisor II,F,3
+2020-06-01,OGG,OPS Agent,F,6
+2020-06-01,OGG,OPS Agent,P,1
+2020-06-01,OGG,Prov Agent Supvr,F,3
+2020-06-01,OGG,Provisioning Agent,F,6
+2020-06-01,OGG,Ramp Agent,F,27
+2020-06-01,OGG,Ramp Agent Supvr,F,3
+2020-06-01,OKC,Customer Serv Agent,F,20
+2020-06-01,OKC,Customer Serv Agent,P,4
+2020-06-01,OKC,Customer Service Supervisor II,F,4
+2020-06-01,OKC,Freight Agent,F,4
+2020-06-01,OKC,OPS Agent,F,11
+2020-06-01,OKC,OPS Agent,P,1
+2020-06-01,OKC,Ramp Agent,F,40
+2020-06-01,OKC,Ramp Agent Supvr,F,5
+2020-06-01,OMA,Customer Serv Agent,F,19
+2020-06-01,OMA,Customer Serv Agent,P,2
+2020-06-01,OMA,Customer Service Supervisor II,F,5
+2020-06-01,OMA,Customer Service Supervisor II,P,1
+2020-06-01,OMA,OPS Agent,F,13
+2020-06-01,OMA,OPS Agent,P,1
+2020-06-01,OMA,Ramp Agent,F,42
+2020-06-01,OMA,Ramp Agent,P,2
+2020-06-01,OMA,Ramp Agent Supvr,F,7
+2020-06-01,ONT,Cargo Customer Service Supervisor,F,1
+2020-06-01,ONT,Customer Serv Agent,F,42
+2020-06-01,ONT,Customer Service Supervisor II,F,10
+2020-06-01,ONT,Freight Agent,F,8
+2020-06-01,ONT,GSE Technician,F,3
+2020-06-01,ONT,OPS Agent,F,24
+2020-06-01,ONT,Ramp Agent,F,87
+2020-06-01,ONT,Ramp Agent,P,9
+2020-06-01,ONT,Ramp Agent Supvr,F,11
+2020-06-01,ORF,Customer Serv Agent,F,13
+2020-06-01,ORF,Customer Serv Agent,P,1
+2020-06-01,ORF,Customer Service Supervisor II,F,3
+2020-06-01,ORF,OPS Agent,F,6
+2020-06-01,ORF,Ramp Agent,F,21
+2020-06-01,ORF,Ramp Agent Supvr,F,3
+2020-06-01,PBI,Customer Serv Agent,F,12
+2020-06-01,PBI,Customer Serv Agent,P,4
+2020-06-01,PBI,Customer Service Supervisor II,F,3
+2020-06-01,PBI,OPS Agent,F,7
+2020-06-01,PBI,Ramp Agent,F,21
+2020-06-01,PBI,Ramp Agent,P,5
+2020-06-01,PBI,Ramp Agent Supvr,F,3
+2020-06-01,PDX,Cargo Customer Service Supervisor,F,2
+2020-06-01,PDX,Customer Serv Agent,F,43
+2020-06-01,PDX,Customer Serv Agent,P,7
+2020-06-01,PDX,Customer Service Supervisor II,F,11
+2020-06-01,PDX,Freight Agent,F,11
+2020-06-01,PDX,OPS Agent,F,23
+2020-06-01,PDX,OPS Agent,P,5
+2020-06-01,PDX,Ramp Agent,F,107
+2020-06-01,PDX,Ramp Agent,P,5
+2020-06-01,PDX,Ramp Agent Supvr,F,11
+2020-06-01,PHL,Cargo Customer Service Supervisor,F,2
+2020-06-01,PHL,Customer Serv Agent,F,32
+2020-06-01,PHL,Customer Serv Agent,P,1
+2020-06-01,PHL,Customer Service Supervisor II,F,9
+2020-06-01,PHL,Freight Agent,F,8
+2020-06-01,PHL,GSE Technician,F,1
+2020-06-01,PHL,Lead GSE Technician,F,1
+2020-06-01,PHL,OPS Agent,F,18
+2020-06-01,PHL,Ramp Agent,F,77
+2020-06-01,PHL,Ramp Agent,P,1
+2020-06-01,PHL,Ramp Agent Supvr,F,7
+2020-06-01,PHX,Cargo Customer Service Supervisor,F,5
+2020-06-01,PHX,Customer Serv Agent,F,162
+2020-06-01,PHX,Customer Serv Agent,P,12
+2020-06-01,PHX,Customer Service Supervisor II,F,34
+2020-06-01,PHX,ELDP Customer Service II,F,3
+2020-06-01,PHX,ELDP Provo,F,1
+2020-06-01,PHX,ELDP Ramp,F,2
+2020-06-01,PHX,Freight Agent,F,25
+2020-06-01,PHX,GSE Technician,F,10
+2020-06-01,PHX,GSE Technician - Shop,F,2
+2020-06-01,PHX,Lead GSE Technician,F,3
+2020-06-01,PHX,Lead GSE Technician - Shop,F,1
+2020-06-01,PHX,OPS Agent,F,90
+2020-06-01,PHX,OPS Agent,P,1
+2020-06-01,PHX,Prov Agent Supvr,F,10
+2020-06-01,PHX,Provisioning Agent,F,92
+2020-06-01,PHX,Ramp Agent,F,410
+2020-06-01,PHX,Ramp Agent,P,48
+2020-06-01,PHX,Ramp Agent Supvr,F,41
+2020-06-01,PHX,Sky Cap,F,15
+2020-06-01,PHX,Sky Cap,P,6
+2020-06-01,PIT,Customer Serv Agent,F,24
+2020-06-01,PIT,Customer Serv Agent,P,6
+2020-06-01,PIT,Customer Service Supervisor II,F,6
+2020-06-01,PIT,OPS Agent,F,15
+2020-06-01,PIT,OPS Agent,P,2
+2020-06-01,PIT,Ramp Agent,F,72
+2020-06-01,PIT,Ramp Agent,P,5
+2020-06-01,PIT,Ramp Agent Supvr,F,8
+2020-06-01,PNS,Customer Serv Agent,F,5
+2020-06-01,PNS,Customer Serv Agent,P,6
+2020-06-01,PNS,Customer Service Supervisor II,F,3
+2020-06-01,PVD,Customer Serv Agent,F,25
+2020-06-01,PVD,Customer Service Supervisor II,F,5
+2020-06-01,PVD,OPS Agent,F,13
+2020-06-01,PVD,Ramp Agent,F,62
+2020-06-01,PVD,Ramp Agent Supvr,F,5
+2020-06-01,PWM,Customer Contract Service Lead,F,1
+2020-06-01,RDU,Cargo Customer Service Supervisor,F,1
+2020-06-01,RDU,Customer Serv Agent,F,27
+2020-06-01,RDU,Customer Serv Agent,P,5
+2020-06-01,RDU,Customer Service Supervisor II,F,7
+2020-06-01,RDU,Freight Agent,F,8
+2020-06-01,RDU,OPS Agent,F,17
+2020-06-01,RDU,Ramp Agent,F,75
+2020-06-01,RDU,Ramp Agent,P,8
+2020-06-01,RDU,Ramp Agent Supvr,F,7
+2020-06-01,RIC,Customer Serv Agent,F,6
+2020-06-01,RIC,Customer Serv Agent,P,2
+2020-06-01,RIC,Customer Service Supervisor II,F,3
+2020-06-01,RNO,Cargo Customer Service Supervisor,F,1
+2020-06-01,RNO,Customer Serv Agent,F,21
+2020-06-01,RNO,Customer Serv Agent,P,5
+2020-06-01,RNO,Customer Service Supervisor II,F,6
+2020-06-01,RNO,Freight Agent,F,5
+2020-06-01,RNO,Freight Agent,P,2
+2020-06-01,RNO,OPS Agent,F,11
+2020-06-01,RNO,OPS Agent,P,2
+2020-06-01,RNO,Ramp Agent,F,50
+2020-06-01,RNO,Ramp Agent,P,6
+2020-06-01,RNO,Ramp Agent Supvr,F,6
+2020-06-01,ROC,Customer Serv Agent,F,6
+2020-06-01,ROC,Customer Serv Agent,P,7
+2020-06-01,ROC,Customer Service Supervisor II,F,3
+2020-06-01,RSW,Customer Serv Agent,F,25
+2020-06-01,RSW,Customer Serv Agent,P,7
+2020-06-01,RSW,Customer Service Supervisor II,F,7
+2020-06-01,RSW,OPS Agent,F,12
+2020-06-01,RSW,OPS Agent,P,2
+2020-06-01,RSW,Ramp Agent,F,49
+2020-06-01,RSW,Ramp Agent,P,3
+2020-06-01,RSW,Ramp Agent Supvr,F,6
+2020-06-01,SAN,Cargo Customer Service Supervisor,F,1
+2020-06-01,SAN,Customer Serv Agent,F,114
+2020-06-01,SAN,Customer Serv Agent,P,19
+2020-06-01,SAN,Customer Service Supervisor II,F,28
+2020-06-01,SAN,ELDP Customer Service II,F,2
+2020-06-01,SAN,ELDP Ramp,F,2
+2020-06-01,SAN,Freight Agent,F,10
+2020-06-01,SAN,GSE Technician,F,3
+2020-06-01,SAN,Lead GSE Technician,F,1
+2020-06-01,SAN,OPS Agent,F,55
+2020-06-01,SAN,OPS Agent,P,2
+2020-06-01,SAN,Prov Agent Supvr,F,8
+2020-06-01,SAN,Provisioning Agent,F,52
+2020-06-01,SAN,Ramp Agent,F,239
+2020-06-01,SAN,Ramp Agent,P,49
+2020-06-01,SAN,Ramp Agent Supvr,F,25
+2020-06-01,SAN,Sky Cap,F,11
+2020-06-01,SAT,Cargo Customer Service Supervisor,F,1
+2020-06-01,SAT,Customer Serv Agent,F,56
+2020-06-01,SAT,Customer Serv Agent,P,9
+2020-06-01,SAT,Customer Service Supervisor II,F,12
+2020-06-01,SAT,ELDP Customer Service II,F,1
+2020-06-01,SAT,ELDP Ramp,F,2
+2020-06-01,SAT,Freight Agent,F,9
+2020-06-01,SAT,GSE Technician,F,2
+2020-06-01,SAT,OPS Agent,F,27
+2020-06-01,SAT,Ramp Agent,F,99
+2020-06-01,SAT,Ramp Agent,P,14
+2020-06-01,SAT,Ramp Agent Supvr,F,12
+2020-06-01,SAT,Sky Cap,F,6
+2020-06-01,SDF,Cargo Customer Service Supervisor,F,1
+2020-06-01,SDF,Customer Serv Agent,F,16
+2020-06-01,SDF,Customer Serv Agent,P,3
+2020-06-01,SDF,Customer Service Supervisor II,F,4
+2020-06-01,SDF,Freight Agent,F,7
+2020-06-01,SDF,OPS Agent,F,8
+2020-06-01,SDF,OPS Agent,P,2
+2020-06-01,SDF,Ramp Agent,F,30
+2020-06-01,SDF,Ramp Agent,P,3
+2020-06-01,SDF,Ramp Agent Supvr,F,5
+2020-06-01,SEA,Cargo Customer Service Supervisor,F,2
+2020-06-01,SEA,Customer Serv Agent,F,41
+2020-06-01,SEA,Customer Serv Agent,P,7
+2020-06-01,SEA,Customer Service Supervisor II,F,11
+2020-06-01,SEA,ELDP Customer Service II,F,1
+2020-06-01,SEA,ELDP Ramp,F,1
+2020-06-01,SEA,Freight Agent,F,10
+2020-06-01,SEA,OPS Agent,F,19
+2020-06-01,SEA,OPS Agent,P,1
+2020-06-01,SEA,Ramp Agent,F,110
+2020-06-01,SEA,Ramp Agent,P,4
+2020-06-01,SEA,Ramp Agent Supvr,F,10
+2020-06-01,SEA,Ramp Agent Supvr,P,1
+2020-06-01,SFO,Cargo Customer Service Supervisor,F,1
+2020-06-01,SFO,Customer Serv Agent,F,54
+2020-06-01,SFO,Customer Serv Agent,P,3
+2020-06-01,SFO,Customer Service Supervisor II,F,13
+2020-06-01,SFO,Freight Agent,F,8
+2020-06-01,SFO,OPS Agent,F,28
+2020-06-01,SFO,OPS Agent,P,1
+2020-06-01,SFO,Ramp Agent,F,111
+2020-06-01,SFO,Ramp Agent Supvr,F,15
+2020-06-01,SJC,Cargo Customer Service Supervisor,F,1
+2020-06-01,SJC,Customer Serv Agent,F,100
+2020-06-01,SJC,Customer Serv Agent,P,1
+2020-06-01,SJC,Customer Service Supervisor II,F,24
+2020-06-01,SJC,ELDP Customer Service II,F,3
+2020-06-01,SJC,ELDP Ramp,F,2
+2020-06-01,SJC,Freight Agent,F,7
+2020-06-01,SJC,OPS Agent,F,57
+2020-06-01,SJC,Prov Agent Supvr,F,7
+2020-06-01,SJC,Provisioning Agent,F,34
+2020-06-01,SJC,Ramp Agent,F,193
+2020-06-01,SJC,Ramp Agent Supvr,F,20
+2020-06-01,SJC,Sky Cap,F,9
+2020-06-01,SJU,Customer Serv Agent,F,6
+2020-06-01,SJU,Customer Serv Agent,P,22
+2020-06-01,SJU,Customer Service Supervisor II,F,3
+2020-06-01,SJU,Ramp Agent Supvr,F,2
+2020-06-01,SLC,Cargo Customer Service Supervisor,F,1
+2020-06-01,SLC,Customer Serv Agent,F,34
+2020-06-01,SLC,Customer Serv Agent,P,5
+2020-06-01,SLC,Customer Service Supervisor II,F,8
+2020-06-01,SLC,Freight Agent,F,9
+2020-06-01,SLC,OPS Agent,F,15
+2020-06-01,SLC,OPS Agent,P,1
+2020-06-01,SLC,Ramp Agent,F,80
+2020-06-01,SLC,Ramp Agent,P,11
+2020-06-01,SLC,Ramp Agent Supvr,F,9
+2020-06-01,SMF,Cargo Customer Service Supervisor,F,1
+2020-06-01,SMF,Customer Serv Agent,F,89
+2020-06-01,SMF,Customer Serv Agent,P,4
+2020-06-01,SMF,Customer Service Supervisor II,F,15
+2020-06-01,SMF,Freight Agent,F,7
+2020-06-01,SMF,OPS Agent,F,57
+2020-06-01,SMF,OPS Agent,P,2
+2020-06-01,SMF,Prov Agent Supvr,F,6
+2020-06-01,SMF,Provisioning Agent,F,36
+2020-06-01,SMF,Provisioning Agent,P,2
+2020-06-01,SMF,Ramp Agent,F,166
+2020-06-01,SMF,Ramp Agent,P,27
+2020-06-01,SMF,Ramp Agent Supvr,F,18
+2020-06-01,SNA,Customer Serv Agent,F,53
+2020-06-01,SNA,Customer Serv Agent,P,11
+2020-06-01,SNA,Customer Service Supervisor II,F,12
+2020-06-01,SNA,OPS Agent,F,26
+2020-06-01,SNA,OPS Agent,P,3
+2020-06-01,SNA,Ramp Agent,F,97
+2020-06-01,SNA,Ramp Agent,P,5
+2020-06-01,SNA,Ramp Agent Supvr,F,12
+2020-06-01,STL,Cargo Customer Service Supervisor,F,2
+2020-06-01,STL,Customer Serv Agent,F,101
+2020-06-01,STL,Customer Serv Agent,P,6
+2020-06-01,STL,Customer Service Supervisor II,F,27
+2020-06-01,STL,ELDP Customer Service II,F,2
+2020-06-01,STL,ELDP Provo,F,2
+2020-06-01,STL,ELDP Ramp,F,2
+2020-06-01,STL,Freight Agent,F,7
+2020-06-01,STL,GSE Technician,F,5
+2020-06-01,STL,Lead GSE Technician,F,1
+2020-06-01,STL,OPS Agent,F,74
+2020-06-01,STL,Prov Agent Supvr,F,8
+2020-06-01,STL,Provisioning Agent,F,54
+2020-06-01,STL,Provisioning Agent,P,4
+2020-06-01,STL,Ramp Agent,F,310
+2020-06-01,STL,Ramp Agent,P,11
+2020-06-01,STL,Ramp Agent Supvr,F,30
+2020-06-01,TPA,Cargo Customer Service Supervisor,F,2
+2020-06-01,TPA,Customer Serv Agent,F,91
+2020-06-01,TPA,Customer Serv Agent,P,20
+2020-06-01,TPA,Customer Service Supervisor II,F,21
+2020-06-01,TPA,ELDP Customer Service II,F,2
+2020-06-01,TPA,ELDP Provo,F,2
+2020-06-01,TPA,ELDP Ramp,F,2
+2020-06-01,TPA,Freight Agent,F,9
+2020-06-01,TPA,GSE Technician,F,4
+2020-06-01,TPA,Lead GSE Technician,F,1
+2020-06-01,TPA,OPS Agent,F,51
+2020-06-01,TPA,OPS Agent,P,6
+2020-06-01,TPA,Prov Agent Supvr,F,6
+2020-06-01,TPA,Provisioning Agent,F,36
+2020-06-01,TPA,Provisioning Agent,P,6
+2020-06-01,TPA,Ramp Agent,F,221
+2020-06-01,TPA,Ramp Agent,P,21
+2020-06-01,TPA,Ramp Agent Supvr,F,20
+2020-06-01,TUL,Customer Serv Agent,F,21
+2020-06-01,TUL,Customer Service Supervisor II,F,5
+2020-06-01,TUL,Freight Agent,F,6
+2020-06-01,TUL,OPS Agent,F,10
+2020-06-01,TUL,Ramp Agent,F,31
+2020-06-01,TUL,Ramp Agent,P,1
+2020-06-01,TUL,Ramp Agent Supvr,F,4
+2020-06-01,TUS,Cargo Customer Service Supervisor,F,1
+2020-06-01,TUS,Customer Serv Agent,F,15
+2020-06-01,TUS,Customer Serv Agent,P,3
+2020-06-01,TUS,Customer Service Supervisor II,F,5
+2020-06-01,TUS,Freight Agent,F,5
+2020-06-01,TUS,OPS Agent,F,9
+2020-06-01,TUS,OPS Agent,P,1
+2020-06-01,TUS,Ramp Agent,F,27
+2020-06-01,TUS,Ramp Agent Supvr,F,4
