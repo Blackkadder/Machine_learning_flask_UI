@@ -12,7 +12,7 @@
     <div class="panel-header bg-primary-gradient">
       <div class="page-inner py-5">
         <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row">
-          <div>
+          <div>d
             <h2 class="text-white pb-2 fw-bold">PxQ model</h2>
             <h5 class="text-white op-7 mb-2">Ground Ops SWB dashboard</h5>
           </div>
@@ -26,12 +26,73 @@
     <div class="page-inner mt--5">
       <div class="row mt--2">
        
-       
+
       </div>
       <div class="row">
+        <div class="col-md-2">
 
-        <div class="col-md-12">
 
+             <div class="card">
+            <div class="card-header">
+              <div class="card-head-row">
+                <div class="card-title">High Level Assumptions</div>
+              
+              </div>
+            </div>
+         
+            <div class="card-body">
+               <div data-role="main" class="ui-content">
+                <form method="post" action="/action_page_post.php">
+                  <fieldset data-role="collapsible">
+                    <legend>Assumptions</legend>
+                      <label for="name">Start date</label>
+                      <input type="text" name="text" id="start_date">
+                      <p>Favorite Color:</p>
+                    
+                      <button id="calculate" type="submit" class="btn btn-primary">Apply</button>                  
+                  </fieldset>
+                </form>
+              </div>
+           
+            </div>
+          </div>
+        </div>
+
+         <div class="col-md-8"> 
+          <div class="card">
+            <div class="card-header">
+              <div class="card-head-row card-tools-still-right">
+                <h4 class="card-title">Forecasts</h4>
+                
+              </div>
+              <p class="card-category">
+              Headcount</p>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                
+                  <div class="table-responsive table-hover table-sales" id="headcount-content">
+                    
+                                 {{ doc_script | safe}}
+                                
+                  </div>
+                </div>
+               
+             
+            </div>
+          </div>
+        </div>
+       
+        </div>
+
+
+
+
+      <div class="row row-card-no-pd">
+      
+      </div>
+      <div class="row">
+        <div class="col-md-4">
           <div class="card">
             <div class="card-header">
               <div class="card-head-row">
@@ -48,47 +109,6 @@
               <div id="myChartLegend"></div>
             </div>
           </div>
-        </div>
-        </div>
-
-
-
-
-      <div class="row row-card-no-pd">
-        <div class="col-md-12"> 
-          <div class="card">
-            <div class="card-header">
-              <div class="card-head-row card-tools-still-right">
-                <h4 class="card-title">Forecasts</h4>
-                <div class="card-tools">
-                  <button class="btn btn-icon btn-link btn-primary btn-xs"><span class="fa fa-angle-down"></span></button>
-                  <button class="btn btn-icon btn-link btn-primary btn-xs btn-refresh-card"><span class="fa fa-sync-alt"></span></button>
-                  <button class="btn btn-icon btn-link btn-primary btn-xs"><span class="fa fa-times"></span></button>
-                </div>
-              </div>
-              <p class="card-category">
-              Map of the distribution of users around the world</p>
-            </div>
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="table-responsive table-hover table-sales">
-                    
-                       
-                                 
-
-                          {{ doc_script | safe}}
-                                
-                  </div>
-                </div>
-               
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
           
           
      
@@ -109,19 +129,36 @@
         crossorigin="anonymous"></script>
 <script src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.0.1.min.js"
         crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
 	<script src="/static/assets/js/demo.js"></script>
 
-	<script>
 	
 
-	</script>
 
 
-
-
-
+<script>
+      $(document).ready(function(){
+        $('#calculate').on('click', function(e){
+          // prevent page being reset, we are going to update only
+          // one part of the page.
+          e.preventDefault()
+          $.ajax({
+            url:'./get_table',
+            type:'post',
+            data:{'start_date':$("#start_date").val()
+                  },
+            success : function(data){
+              // server returns rendered "update_content.html"
+              // which is just pure html, use this to replace the existing
+              // html within the "plot content" div
+              $('#headcount-content').html(data)
+            }
+          })
+        });
+      });
+    </script>
 
 
 {% endblock javascripts %}

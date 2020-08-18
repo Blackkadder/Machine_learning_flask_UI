@@ -20,18 +20,14 @@ from app.forms  import LoginForm, RegisterForm
 
 from datetime import date
 from random import randint
-from bokeh.io import output_file, show, output_notebook,curdoc
 from bokeh.layouts import widgetbox
 from bokeh.embed import server_document
-from bokeh.models import ColumnDataSource, Slider
+from bokeh.models import ColumnDataSource
 from bokeh.models.widgets import DataTable, DateFormatter, TableColumn
 from bokeh.embed import components
 from datetime import date
 from random import randint
 from bokeh.plotting import figure
-from bokeh.sampledata.sea_surface_temperature import sea_surface_temperature
-from bokeh.layouts import column
-from bokeh.themes import Theme
 import yaml
 import pandas as pd
 
@@ -194,6 +190,29 @@ def sitemap():
 #def bkapp_page():
 #    script = server_document('http://localhost:5006/bkapp')
 #    return render_template("pages/index.html", script=script, template="Flask", relative_urls=False)
+
+
+@app.route('/get_table', methods=['GET','POST'])
+def get_table():
+
+    # extract nrow, ncol via ajax post - contained in request.form
+    start_date = request.form.get('start_date', type=str)
+    
+    # the updated/new plot
+    #p = figure(plot_width=150, plot_height=100)
+
+    #p.line(list(range(nrow)), list(range(nrow)))
+
+    df = get_df()
+
+    #table_script, table_div = data_table(df)
+    #plot_script, plot_div = bar_chart(df)
+    doc_script = df.to_html()
+
+ 
+
+        # try to match the pages defined in -> pages/<input file>
+    return render_template( 'pages/get_table.html' ,  doc_script = doc_script )
 
 
 def get_df():
