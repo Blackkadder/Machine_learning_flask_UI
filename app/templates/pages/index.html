@@ -58,25 +58,63 @@
           </div>
         </div>
 
-         <div class="col-md-8"> 
+         <div class="col-md-10"> 
           <div class="card">
             <div class="card-header">
               <div class="card-head-row card-tools-still-right">
-                <h4 class="card-title">Forecasts</h4>
-                
+                <h3 class="card-title">Forecasts</h3>
               </div>
-              <p class="card-category">
-              Headcount</p>
-            </div>
+              
+              <p class="card-category"><h3>Headcount</h3></p>
+               </div>
             <div class="card-body">
               <div class="row">
                 
-                  <div class="table-responsive table-hover table-sales" id="headcount-content">
-                    
-                                 {{ doc_script | safe}}
-                                
-                  </div>
+                 <div style="overflow-x:auto;" id = "headcount-content">
+                           
+                                 {{ table_headcount | safe}}                
                 </div>
+              </div><p>
+              
+              <p class="card-category"><h3>Hours</h3></p>
+              <div class="row">
+                
+                 <div style="overflow-x:auto;" id = "headcount-content">
+                           
+                                 {{ table_hours | safe}}
+                </div>
+              </div><p>
+
+               <p class="card-category"><h3>Rates</h3></p>
+              <div class="row">
+                
+                 <div style="overflow-x:auto;" id = "headcount-content">
+                           
+                                 {{ table_rates | safe}}
+                </div>
+              </div><p>
+
+               <p class="card-category"><h3>Wages</h3></p>
+              <div class="row">
+                
+                 <div style="overflow-x:auto;" id = "headcount-content">
+                           
+                                 {{ table_wages | safe}}
+                </div>
+              </div><p>
+
+               <p class="card-category"><h3>Adjustments</h3></p>
+              <div class="row">
+                
+                 <div style="overflow-x:auto;" id = "headcount-content">
+                           
+                                 {{ table_adjustments | safe}}
+                </div>
+              </div><p>
+
+
+
+            </div>
                
              
             </div>

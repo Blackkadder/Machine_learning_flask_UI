@@ -30,6 +30,7 @@ from random import randint
 from bokeh.plotting import figure
 import yaml
 import pandas as pd
+import GOSWB as go
 
 
 # provide login manager with load_user callback
@@ -142,25 +143,24 @@ def index(path):
         return redirect(url_for('login'))
 
     content = None
-    df = get_df()
-    table_script, table_div = data_table(df)
-    plot_script, plot_div = bar_chart(df)
-    doc_script = server_document('http://localhost:5006/bkapp')
-
-
-    #doc_script = server_document("http://localhost:5006/app")
+    headcount_df = go.get_df()
     
-    #doc_script, doc_div = components(layout)
-    
-
-    #print(tables)
-    #try:
+    headcount_df =  headcount_df.pivot_table(values= 'HEADCOUNT',index = [ 'FULL_OR_PART_TIME'],
+                        columns = 'Date', aggfunc='sum'
+                ).reset_index()
+    table_headcount = headcount_df.to_html(classes ='table table-head-bg-primary mt-4')
+    table_hours = headcount_df.to_html(classes ='table table-head-bg-primary mt-4')
+    table_rates = headcount_df.to_html(classes ='table table-head-bg-primary mt-4')
+    table_wages = headcount_df.to_html(classes ='table table-head-bg-primary mt-4')
+    table_adjustments = headcount_df.to_html(classes ='table table-head-bg-primary mt-4')
 
 
         # try to match the pages defined in -> pages/<input file>
-    return render_template( 'pages/'+path ,  table_div = table_div, script =table_script,
-                                            div2 = plot_div, script2 = plot_script,
-                                            doc_script = doc_script )
+    return render_template( 'pages/'+path , table_headcount = table_headcount,
+                                            table_hours = table_hours,
+                                            table_rates = table_rates,
+                                            table_wages = table_wages,
+                                            table_adjustments = table_adjustments )
     
     #except:
         
@@ -203,22 +203,18 @@ def get_table():
 
     #p.line(list(range(nrow)), list(range(nrow)))
 
-    df = get_df()
+    df = go.get_df()
+    df = df[df['FT or PT'] =='FT']
 
     #table_script, table_div = data_table(df)
     #plot_script, plot_div = bar_chart(df)
-    doc_script = df.to_html()
+    doc_script = df.to_html(classes ='table table-head-bg-primary mt-4')
 
  
 
         # try to match the pages defined in -> pages/<input file>
     return render_template( 'pages/get_table.html' ,  doc_script = doc_script )
 
-
-def get_df():
-
-    df = pd.read_csv('data/headcount.csv', sep = '\t')
-    return df
 
 
 def data_table(df):
