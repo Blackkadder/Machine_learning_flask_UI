@@ -145,9 +145,9 @@ def index(path):
     content = None
     headcount_df = go.get_df()
     
-    headcount_df =  headcount_df.pivot_table(values= 'HEADCOUNT',index = [ 'FULL_OR_PART_TIME'],
-                        columns = 'Date', aggfunc='sum'
-                ).reset_index()
+    #headcount_df =  headcount_df.pivot_table(values= 'HEADCOUNT',index = [ 'FULL_OR_PART_TIME'],
+    #                    columns = 'date', aggfunc='sum'
+    #            ).reset_index()
     table_headcount = headcount_df.to_html(classes ='table table-head-bg-primary mt-4')
     table_hours = headcount_df.to_html(classes ='table table-head-bg-primary mt-4')
     table_rates = headcount_df.to_html(classes ='table table-head-bg-primary mt-4')
